@@ -8,7 +8,7 @@ body {
     height: 100vh;
     padding: 0;
     border: 0;
-    background: linear-gradient(to bottom right, #F1F2B5, #eef2f3);
+    background: linear-gradient(to bottom right, #c14545, #eef2f3);
 }
 .form {
     background-color: #fff;
