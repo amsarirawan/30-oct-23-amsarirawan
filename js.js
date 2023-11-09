@@ -1,3 +1,4 @@
+<script>
 var age = document.getElementById("age");
 var height = document.getElementById("height");
 var weight = document.getElementById("weight");
@@ -57,3 +58,4 @@ function countBmi() {
         .removeEventListener("click", validateForm);
 }
 document.getElementById("submit").addEventListener("click", countBmi);
+</script>
