@@ -32,8 +32,9 @@ function countBmi() {
     var bmi = Number(p[2]) / (((Number(p[1]) / 100) * Number(p[1])) / 100);
     var result = "";
     if (bmi < 18.5) {
-        result = "Underweight";
-        <p>Semangat lagi ya naikkan berat badan</p>;
+        result = "Underweight
+            <p>Semangat lagi ya naikkan berat badan</p>";
+        
     } else if (18.5 <= bmi && bmi <= 24.9) {
         result = "Healthy";
     } else if (25 <= bmi && bmi <= 29.9) {
