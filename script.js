@@ -31,15 +31,15 @@ function countBmi() {
     var bmi = Number(p[2]) / (((Number(p[1]) / 100) * Number(p[1])) / 100);
     var result = "";
     if (bmi < 18.5) {
-        result = "Underweight";
+        result = "Underweight(anda kekurangan berat badan";
     } else if (18.5 <= bmi && bmi <= 24.9) {
-        result = "Healthy";
+        result = "Healthy(normal)";
     } else if (25 <= bmi && bmi <= 29.9) {
-        result = "Overweight";
+        result = "Overweight(kelebihan berat badan)";
     } else if (30 <= bmi && bmi <= 34.9) {
-        result = "Obese";
+        result = "Obese(obesitas)";
     } else if (35 <= bmi) {
-        result = "Extremely obese";
+        result = "Extremely obese(kelebihan obesitas)";
     }
     var h1 = document.createElement("h1");
     var h2 = document.createElement("h2");
